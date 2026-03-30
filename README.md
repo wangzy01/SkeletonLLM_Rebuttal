@@ -29,8 +29,8 @@
 
 | Renderer | Stage 1&4 Only | Full Four-Stage | Δ (Pipeline) |
 | :--- | :---: | :---: | :---: |
-| 3D+Velocity | 56.18 | 58.77 | +2.59 |
-| DrAction (Ours) | 62.09 | 64.72 | +2.63 |
+| 3D+Velocity | 56.18 (new) | 58.77 (paper Tab. 4) | +2.59 |
+| DrAction (Ours) | 62.09 (paper Tab. 5) | 64.72 (paper Tab. 4) | +2.63 |
 | **Δ (Renderer)** | **+5.91** | **+5.95** | — |
 
 ---
