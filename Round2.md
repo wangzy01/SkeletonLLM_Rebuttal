@@ -19,7 +19,7 @@ Round 1 materials: [Tables 1–12, Figure 1 (README)](README.md)
 
 ### Figure 2: NFM Color Change Across Formats — same renderer weights, different skeleton formats
 
-<img src="figs/nfm_change.png" alt="NFM Color Change Heatmap" style="zoom:50%;" />
+<img src="figs/nfm_change.png" alt="NFM Color Change Heatmap" style="zoom:80%;" />
 
 <a id="table-13"></a>
 
@@ -27,8 +27,8 @@ Round 1 materials: [Tables 1–12, Figure 1 (README)](README.md)
 
 | Weight Strategy | NTU-60 48/12 | NTU-60→NW-UCLA | HumanML3D→NW-UCLA |
 | :--- | :---: | :---: | :---: |
-| (a) Uniform ($w_{k,j}=1/J$) | 58.41 | 45.67 | 38.82 |
-| (b) Distance ($\propto 1/d^2$) | 61.81 | 52.53 | 47.16 |
+| (a) Uniform (w_k,j = 1/J) | 58.41 | 45.67 | 38.82 |
+| (b) Distance (proportional to 1/d^2) | 61.81 | 52.53 | 47.16 |
 | (c) Learnable | 64.90 | 48.74 | 41.25 |
 | **(d) Topology (Ours)** | 64.72 | 60.38 | 56.73 |
 
@@ -38,7 +38,7 @@ Round 1 materials: [Tables 1–12, Figure 1 (README)](README.md)
 
 ### Table 14: Topology Stress Test — train on NTU-60 25J, test on reduced topologies
 
-| Train → Test | Topology (Ours) | Uniform ($1/J$) | Distance ($1/d^2$) | Learnable |
+| Train → Test | Topology (Ours) | Uniform (1/J) | Distance (1/d^2) | Learnable |
 | :--- | :---: | :---: | :---: | :---: |
 | 25J (original) | 64.72 | 58.41 | 61.81 | 64.90 |
 | 25J → 20J | 61.84 (−2.88) | 51.57 (−6.84) | 57.48 (−4.33) | 58.76 (−6.14) |
@@ -59,7 +59,7 @@ Round 1 materials: [Tables 1–12, Figure 1 (README)](README.md)
 
 ### Figure 4: DrAction Rendering Under Reduced Topologies
 
-<img src="figs/ntu_13j_vis.png" alt="Rendering under reduced topologies" style="zoom:50%;" />
+<img src="figs/ntu_13j_vis.png" alt="Rendering under reduced topologies" style="zoom:80%;" />
 
 ---
 
@@ -67,7 +67,7 @@ Round 1 materials: [Tables 1–12, Figure 1 (README)](README.md)
 
 ### Figure 5: Joint Rendering vs. Separate Overlay on Two-Person Actions
 
-<img src="figs/render_cmp.png" alt="Joint rendering vs separate overlay comparison" style="zoom:50%;" />
+<img src="figs/render_cmp.png" alt="Joint rendering vs separate overlay comparison" style="zoom:80%;" />
 
 
 ---
@@ -76,4 +76,4 @@ Round 1 materials: [Tables 1–12, Figure 1 (README)](README.md)
 
 ### Figure 6: ViT Attention Maps on Multi-Person Rendered Scenes
 
-<img src="figs/atten_map.png" alt="ViT attention maps on multi-person scenes" style="zoom:50%;" />
+<img src="figs/atten_map.png" alt="ViT attention maps on multi-person scenes" style="zoom:80%;" />
