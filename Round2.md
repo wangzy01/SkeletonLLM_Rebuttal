@@ -19,7 +19,7 @@ Round 1 materials: [Tables 1–12, Figure 1 (README)](README.md)
 
 ### Figure 2: NFM Color Change Across Formats — same renderer weights, different skeleton formats
 
-<img src="figs/nfm_change.png" alt="NFM Color Change Heatmap" style="zoom:10%;" />
+<img src="figs/nfm_change.png" alt="NFM Color Change Heatmap" style="zoom:20%;" />
 
 <a id="table-13"></a>
 
@@ -59,7 +59,7 @@ Round 1 materials: [Tables 1–12, Figure 1 (README)](README.md)
 
 ### Figure 4: DrAction Rendering Under Reduced Topologies
 
-<img src="figs/ntu_13j_vis.png" alt="Rendering under reduced topologies" style="zoom:10%;" />
+<img src="figs/ntu_13j_vis.png" alt="Rendering under reduced topologies" style="zoom:20%;" />
 
 ---
 
@@ -67,7 +67,7 @@ Round 1 materials: [Tables 1–12, Figure 1 (README)](README.md)
 
 ### Figure 5: Joint Rendering vs. Separate Overlay on Two-Person Actions
 
-<img src="figs/render_cmp.png" alt="Joint rendering vs separate overlay comparison" style="zoom:10%;" />
+<img src="figs/render_cmp.png" alt="Joint rendering vs separate overlay comparison" style="zoom:20%;" />
 
 
 ---
@@ -76,4 +76,4 @@ Round 1 materials: [Tables 1–12, Figure 1 (README)](README.md)
 
 ### Figure 6: ViT Attention Maps on Multi-Person Rendered Scenes
 
-<img src="figs/atten_map.png" alt="ViT attention maps on multi-person scenes" style="zoom:10%;" />
+<img src="figs/atten_map.png" alt="ViT attention maps on multi-person scenes" style="zoom:20%;" />
